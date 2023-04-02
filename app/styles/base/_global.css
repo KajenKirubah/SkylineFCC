@@ -1,0 +1,22 @@
+
+    
+
+
+*:not(h1, body) {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    color: beige;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

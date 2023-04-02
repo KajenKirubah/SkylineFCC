@@ -1,0 +1,36 @@
+.fb2 {
+    width: 10%;
+    height: 40%;
+    
+
+    &__fb2a {
+        width: 100%;
+        border-bottom: 10vh solid $building-color3a;
+        border-left: 1vw solid transparent;
+        border-right: 1vw solid transparent;
+
+        @mixin atSmall {
+            border-bottom: 10vh solid $building-color3;
+        }
+    }
+
+    &__fb2b {
+        width: 100%;
+        height: 75%;
+        background-color: $building-color3a;
+
+        @mixin atSmall {
+            background-color: $building-color3;
+        }
+    }
+
+    &__window {
+        width: 22%;
+        height: 100%;
+        background-color: $window-color3a;
+
+        @mixin atSmall {
+            background-color: $window-color3;
+        }
+    }
+}

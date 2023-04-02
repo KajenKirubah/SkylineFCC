@@ -1,0 +1,33 @@
+.fb6 {
+    width: 9%;
+    height: 38%;
+    background: repeating-linear-gradient(90deg,
+    $building-color3a 0%,
+    $building-color3a 10%,
+    transparent 10%,
+    transparent 30%
+    ),
+    repeating-linear-gradient(
+        $building-color3a 0%,
+    $building-color3a 10%,
+    $window-color3a 10%,
+    $window-color3a 30%
+    )
+    ;
+
+    @mixin atSmall {
+        background: repeating-linear-gradient(90deg,
+    $building-color3 0%,
+    $building-color3 10%,
+    transparent 10%,
+    transparent 30%
+    ),
+    repeating-linear-gradient(
+        $building-color3 0%,
+    $building-color3 10%,
+    $window-color3 10%,
+    $window-color3 30%
+    )
+    ;
+    }
+}

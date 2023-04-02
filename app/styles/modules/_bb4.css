@@ -1,0 +1,44 @@
+.bb4 {
+    width: 11%;
+    height: 58%;
+
+    &__bb4a {
+        width: 3%;
+        height: 10%;
+        background-color: $building-color4a;
+
+        @mixin atSmall {
+            background-color: $building-color4;
+        }
+    }
+
+    &__bb4b {
+        width: 80%;
+        height: 5%;
+        background-color: $building-color4a;
+
+        @mixin atSmall {
+            background-color: $building-color4;  
+        }
+    }
+
+    &__bb4c {
+        width: 100%;
+        height: 85%;
+        background-color: $building-color4a;
+
+        @mixin atSmall {
+            background-color: $building-color4;  
+        }
+    }
+
+    &__window {
+        width: 18%;
+        height: 90%;
+        background-color: $window-color4a;
+
+        @mixin atSmall {
+            background-color: $window-color4;
+        }
+    }
+}

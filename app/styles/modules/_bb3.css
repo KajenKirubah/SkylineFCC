@@ -1,0 +1,12 @@
+.bb3 {
+    width: 10%;
+    height: 55%;
+    background: repeating-linear-gradient(90deg,
+            $building-color3a,
+            $building-color3a,
+            $window-color3a 15%);
+
+    @mixin atSmall {
+        background: repeating-linear-gradient(90deg, $building-color3, $building-color3, $window-color3 15%);
+    }
+}

@@ -1,0 +1,40 @@
+.fb4 {
+    width: 8%;
+    height: 45%;
+    
+    position: relative;
+    left: 10%;
+
+    &__fb4a {
+        border-top: 5vh solid transparent;
+        border-left: 8vw solid $building-color1a;
+
+        @mixin atSmall {
+            border-left: 8vw solid $building-color1;
+        }
+    }
+
+    &__fb4b {
+        width: 100%;
+        height: 89%;
+        background-color: $building-color1a;
+        display: flex;
+        flex-wrap: wrap;
+
+        @mixin atSmall {
+            background-color: $building-color1;
+        }
+    }
+
+    &__window {
+        width: 30%;
+        height: 10%;
+        border-radius: 50%;
+        background-color: $window-color1a;
+        margin: 10%;
+
+        @mixin atSmall {
+            background-color: $window-color1;
+        }
+    }
+}

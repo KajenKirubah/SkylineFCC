@@ -1,0 +1,49 @@
+/* BACKGROUND BUILDINGS - "bb" stands for "background building" */
+.bb1 {
+    width: 10%;
+    height: 70%;
+
+    @mixin atSmall {
+        
+    }
+     
+    &__window {
+        height: 10%;
+        background-color: var(--building-color1);
+        background: linear-gradient($building-color1a, $window-color1a);
+        
+
+        @mixin atSmall {
+            background: linear-gradient($building-color1, $window-color1);
+        }
+    }
+
+    &__bb1a {
+        width: 70%;
+        background: linear-gradient($building-color1a, $window-color1a);
+        
+
+        @mixin atSmall {
+            background: linear-gradient($building-color1, $window-color1);
+        }
+    }
+
+    &__bb1b {
+        width: 80%;
+    }
+
+    &__bb1c {
+        width: 90%;
+    }
+
+    &__bb1d {
+        width: 100%;
+        height: 70%;
+        background: linear-gradient($building-color1a 50%, $window-color1a);
+
+        @mixin atSmall {
+            background: linear-gradient($building-color1 50%, $window-color1);
+        }
+    }
+}
+

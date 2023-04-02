@@ -1,0 +1,23 @@
+:root {
+
+    --building-color1: #000;
+
+    $building-color1: #000;
+    $building-color2: #000;
+    $building-color3: #000;
+    $building-color4: #000;
+    $window-color1: #777;
+    $window-color2: #777;
+    $window-color3: #777;
+    $window-color4: #777;
+
+    $building-color1a: #aa80ff;
+    $building-color2a: #66cc99;
+    $building-color3a: #cc6699;
+    $building-color4a: #538cc6;
+    $window-color1a: #bb99ff;
+    $window-color2a: #8cd9b3;
+    $window-color3a: #d98cb3;
+    $window-color4a: #8cb3d9;
+}
+ 

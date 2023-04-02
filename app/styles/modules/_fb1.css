@@ -1,0 +1,61 @@
+/* FOREGROUND BUILDINGS - "fb" stands for "foreground building */
+.fb1 {
+    width: 10%;
+    height: 60%;
+
+    &__fb1a {
+        border-bottom: 7vh solid $building-color4a;
+        border-left: 2vw solid transparent;
+        border-right: 2vw solid transparent;
+
+        @mixin atSmall {
+            border-bottom: 7vh solid $building-color4;
+        }
+    }
+
+    &__fb1b {
+        width: 60%;
+        height: 10%;
+        background-color: $building-color4a;
+
+        @mixin atSmall {
+            background-color: $building-color4;
+        }
+    }
+
+    &__fb1c {
+        width: 100%;
+        height: 80%;
+        background: repeating-linear-gradient(
+            90deg, 
+            $building-color4a 0%, 
+            $building-color4a 10%, 
+            transparent 10%, 
+            transparent 15%
+            ),
+            repeating-linear-gradient(
+                $building-color4a 0%,
+                $building-color4a 10%,
+                $window-color4a 10%,
+                $window-color4a 90%
+            )
+            ;
+
+        @mixin atSmall {
+            background: repeating-linear-gradient(
+                90deg, 
+                $building-color4 0%, 
+                $building-color4 10%, 
+                transparent 10%, 
+                transparent 15%
+                ),
+                repeating-linear-gradient(
+                    $building-color4 0%,
+                    $building-color4 10%,
+                    $window-color4 10%,
+                    $window-color4 90%
+                )
+                ; 
+        }    
+    }
+}
